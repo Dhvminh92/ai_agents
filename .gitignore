@@ -1,0 +1,33 @@
+# === Secrets & Credentials ===
+config/*.enc
+config/secrets*
+.env
+*.pem
+*.key
+
+# === Large Files ===
+models/*.gguf
+models/*.bin
+archives/*.json.gz
+memory/qdrant_data/
+memory/*.db
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+
+# === Logs ===
+logs/*.log
+logs/*.log.*
+
+# === OS/Editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
